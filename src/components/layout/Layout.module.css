@@ -1,0 +1,11 @@
+/* Layout.module.css */
+/* CSS Module for the Layout Component */
+
+/* ------------ MAIN ------------ */
+/* Aligns main content to center of page */
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}

@@ -6,11 +6,11 @@
  */
 
 function NewPost() {
-  return (
-    <>
-      <h1>This is the New Post Page</h1>
-    </>
-  )
+	return (
+		<>
+			<h1>This is the New Post Page</h1>
+		</>
+	);
 }
 
 export default NewPost;

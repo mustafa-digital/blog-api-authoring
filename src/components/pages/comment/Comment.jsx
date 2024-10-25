@@ -4,11 +4,11 @@
  */
 
 function Comment() {
-  return (
-    <>
-      <h1>This is the comment page.</h1>
-    </>
-  )
+	return (
+		<>
+			<h1>This is the comment page.</h1>
+		</>
+	);
 }
 
 export default Comment;
