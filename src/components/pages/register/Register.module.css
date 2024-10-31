@@ -1,0 +1,24 @@
+/* Register Page CSS Module */
+
+.wrapper {
+	padding: 50px;
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+
+.wrapper h1 {
+	font-size: 24px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.registerBtn {
+	align-self: end;
+}

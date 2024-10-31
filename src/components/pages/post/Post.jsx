@@ -53,7 +53,7 @@ function Post() {
 			) : (
 				<ul>
 					{posts.map((post) => {
-						<li>post.</li>;
+						<li>post</li>;
 					})}
 				</ul>
 			)}

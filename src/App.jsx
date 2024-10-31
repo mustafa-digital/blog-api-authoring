@@ -1,5 +1,3 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
 import { Routes, Route } from "react-router-dom";
 import "./styles/reset.css";
 
@@ -12,6 +10,8 @@ import Post from "./components/pages/post/Post.jsx";
 import NewPost from "./components/pages/newpost/NewPost.jsx";
 import Comment from "./components/pages/comment/Comment.jsx";
 import Layout from "./components/layout/Layout.jsx";
+import Login from "./components/pages/login/Login.jsx";
+import Register from "./components/pages/register/Register.jsx";
 
 /**
  * -------------- ROUTES ----------------
@@ -54,6 +54,14 @@ function App() {
 				<Route
 					path="/comment"
 					element={<Comment />}
+				/>
+				<Route
+					path="/login"
+					element={<Login />}
+				/>
+				<Route
+					path="/register"
+					element={<Register />}
 				/>
 			</Routes>
 		</Layout>
